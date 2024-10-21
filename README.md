@@ -6,4 +6,9 @@ wget -O - https://raw.githubusercontent.com/kietcaodev/docker_centos7/refs/heads
 
 **If failed** 
 docker ps
+
 docker restart <CONTAINER ID>
+
+
+
+docker run --name debian --network=host -it debian:latest
